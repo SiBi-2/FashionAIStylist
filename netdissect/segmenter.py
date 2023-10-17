@@ -251,7 +251,7 @@ class UnifiedParsingSegmenter(BaseSegmenter):
             else:
                 mask = torch.max(mask, mask2)
             result = result + (part_pred[i][:, local_index])
-        assert result == not 0, 'unrecognized class %d' % classnum
+        assert result is not 0, 'unrecognized class %d' % classnum
         return result, mask
 
     def expand_segment_quad(self, segs, segdiv='quad'):
