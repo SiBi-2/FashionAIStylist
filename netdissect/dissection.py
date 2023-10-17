@@ -912,7 +912,7 @@ def collect_cond_quantiles(outdir, model, segloader, segrunner):
     scale_offset_map = getattr(model, 'scale_offset', None)
     upsample_grids = {}
     common_conditions = set()
-    if label_fracs == None or label_fracs is 0:
+    if label_fracs is None or label_fracs is 0:
         for i, batch in enumerate(progress(segloader, desc='label fracs')):
             seg, batch_label_counts, im, _ = segrunner.run_and_segment_batch(
                     batch, model, want_bincount=True, want_rgb=True)
