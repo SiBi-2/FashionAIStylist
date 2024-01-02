@@ -3,8 +3,6 @@
 
 ![teaser](clothing-gan-thumbnail.gif)
 
-[Devpost Link](https://devpost.com/software/clothinggan) | [Youtube Video](https://www.youtube.com/watch?v=dHuunRnMnMo)
-
 ## Inspiration
 GAN or Generative Adversarial Network is a generative model that able to generate images by learning the probability distribution of a large image dataset. I always find GANs fascinating since they enable people to generate high-quality art or design without any deep technical or artistic skill in drawing. In the past, we've seen many face editing demonstrations of GAN, but seldom seen semantic manipulation of other datasets. That was the inspiration for FashionAIStylist, an application that allows users to collaboratively design clothes without deep technical expertise.
 
