@@ -4,10 +4,10 @@
 ![teaser](clothing-gan-thumbnail.gif)
 
 ## Inspiration
-GAN or Generative Adversarial Network is a generative model that able to generate images by learning the probability distribution of a large image dataset. I always find GANs fascinating since they enable people to generate high-quality art or design without any deep technical or artistic skill in drawing. In the past, we've seen many face editing demonstrations of GAN, but seldom seen semantic manipulation of other datasets. That was the inspiration for FashionAIStylist, an application that allows users to collaboratively design clothes without deep technical expertise.
+GANs or Generative Adversarial Networks are generative models that are able to generate images by learning the probability distribution of a large image dataset. GANs are fascinating, they enable people to generate photo-realistic images, and high-quality art without any deep technical or artistic skill in drawing. In the past, we've seen many face editing demonstrations of GAN, but seldom seen semantic manipulation of other datasets. That was the inspiration for FashionAIStylist, an application that allows users to collaboratively design clothes without deep technical expertise.
 
 ## What it does
-FashionAIStylist is able to pull in original clothing images and mix these images. While mixing, you can control which structure or style that you want the clothing to reflect.  You can also edit the generated clothing by adjusting attributes such as brightness, color, or style.
+FashionAIStylist pulls in original clothing images and mixes these images, creating a new product. While mixing, users can control which structure or style that they want the clothing to reflect.  You can also edit the generated clothing by adjusting attributes such as brightness, color, or style.
 
 ## How it is built
 FashionAIStylist is trained StyleGAN2-ADA on a subset of the Lookbook dataset. The total images used are 8,726 clothing images with a clean background. It used transfer learned from the FFHQ model and takes a day to train the model.
