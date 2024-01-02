@@ -1,4 +1,4 @@
-# ClothingGAN: AI Powered Clothing Design Generator
+# FashionAIStylist: AI Powered Clothing Designer
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/j-mo/FashionAIStylist/blob/master/GenAIFashionStylist.ipynb)
 
 ![teaser](clothing-gan-thumbnail.gif)
